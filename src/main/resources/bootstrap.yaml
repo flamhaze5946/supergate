@@ -1,0 +1,12 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-server:8761/eureka/
+    register-with-eureka: false
+
+#server:
+#    ssl:
+#      enabled: true
+#      key-store: classpath:ssl/ssl.keystore
+#      key-store-password: 8888888
+#      key-password: 8888888
